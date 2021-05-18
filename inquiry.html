@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="inquiry.css">
+  <link rel="stylesheet" href="reset.css">
+  <title>株式会社TECH</title>
+</head>
+<body>
+  <header class="header">
+    <h1>
+      <a href="mainpage.html" class="company-name">TECH</a>
+    </h1>
+    <nav class="nav">
+      <ul class="nav-big">
+        <li class="nav-list"><a href="mainpage.html" class="nav-list-one">ホーム</a></li>
+        <li class="nav-list"><a href="work.html" class="nav-list-one">事業内容</a></li>
+        <li class="nav-list"><a href="news.html" class="nav-list-one">ニュース</a></li>
+        <li class="nav-list"><a href="blog.html" class="nav-list-one">社員ブログ</a></li>
+        <li class="nav-list"><a href="company.html" class="nav-list-one">会社概要</a></li>
+        <li class="nav-list"><a href="recruit.html" class="nav-list-one">採用情報</a></li>
+        <li class="nav-list"><a href="inquiry.html" class="nav-list-one">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="main-box">
+      <div class="main-page-header">
+        <h2 class="main-page-text">お問い合わせ</h2>
+      </div>
+    </div>
+    <div class="inquiry">
+      <form class="form" name="contact" method="POST">
+        <div class="form-item">
+          <label class="form-item-label" for="form-item-name">会社名</label>
+          <input type="text" name="company" class="form-item-input">
+        </div>
+        <div class="form-item">
+          <label class="form-item-label" for="form-item-name">お名前<span class="asterrisk"> *</span></label>
+          <input type="text" name="company" class="form-item-input" required>
+        </div>
+        <div class="form-item">
+          <label class="form-item-label" for="form-item-name">メールアドレス<span class="asterrisk"> *</span></label>
+          <input type="email" name="name" class="form-item-input" required>
+        </div>
+        <div class="text-item">
+          <label class="form-item-label" for="form-item-name">お問い合わせ<span class="asterrisk"> *</span></label>
+          <textarea name="inquiry-box" id="inquiry-box" cols="80" rows="8" required></textarea>
+        </div>
+        <input type="submit" value="お申し込み" class="submit">
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-box">
+      <p class="footer-left">&copy;2020 TECH inc.</p>
+      <nav class="footer-right">
+        <ul class="nav-footer-list">
+          <li class="nav-footer-list"><a href="mainpage.html" class="nav-footer-list-one after">ホーム</a></li>
+          <li class="nav-footer-list"><a href="work.html" class="nav-footer-list-one after">事業内容</a></li>
+          <li class="nav-footer-list"><a href="news.html" class="nav-footer-list-one after">ニュース</a></li>
+          <li class="nav-footer-list"><a href="blog.html" class="nav-footer-list-one after">社員ブログ</a></li>
+          <li class="nav-footer-list"><a href="company.html" class="nav-footer-list-one after">会社概要</a></li>
+          <li class="nav-footer-list"><a href="recruit.html" class="nav-footer-list-one after">採用情報</a></li>
+          <li class="nav-footer-list"><a href="inquiry.html" class="nav-footer-list-one">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

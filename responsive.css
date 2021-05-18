@@ -1,0 +1,10 @@
+@media screen and (max-width:768px){
+  *{
+    box-sizing: border-box;
+  }
+
+.main-page-header{
+  width:100%;
+}
+
+}

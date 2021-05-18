@@ -1,0 +1,205 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  scroll-margin-top:70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  position: fixed;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.nav {
+  margin-top: 26px;
+}
+
+.nav-big {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.nav-list-one {
+  color: black;
+}
+
+.company-name {
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 24px;
+  margin-top: 22px;
+  margin-left: 30px;
+}
+
+.nav-list {
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.nav-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* ヘッダー */
+
+.main-box{
+  height: 250px;
+  padding-top: 70px;
+  position: relative;
+  background-image: url(mv.png);
+  background-position: top 43% left 50%;
+  background-size: cover;
+}
+
+.main-page-text{
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 30px;
+}
+
+/* 事業内容 */
+
+.topic{
+  height: 800px;
+  margin-top: 75px;
+}
+
+.topic-box{
+  width: 75%;
+  margin: 0 auto;
+  height: 220px;
+  border-top: 1px solid black;
+  position: relative;
+}
+
+.topic-img{
+  width: 27%;
+  height: auto;
+  margin-right: 35px;
+}
+
+.topic-box-one{
+  display: flex;
+  position: absolute;
+  top: 10%;
+}
+
+.topic-box-text{
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px 0 10px 0;
+}
+
+.topic-box-one-second{
+  top: 100%;
+}
+
+.topic-box:last-child{
+  border-bottom: 1px solid black;
+}
+
+.inquiry {
+  height: 300px;
+  background-color: rgb(240, 238, 238);
+  margin-top: 150px;
+}
+
+.inquiry-box {
+  text-align: center;
+}
+
+.inquiry-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 80px 0 20px 0;
+}
+
+.inquiry-text {
+  padding-bottom: 10px;
+}
+
+.footer {
+  background-color: rgb(27, 26, 26);
+  color: white;
+  font-size: 12px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.footer-box {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-footer-list {
+  display: flex;
+  margin-right: 0;
+}
+
+.nav-footer-list:not(:last-child) {
+  padding-right: 20px;
+}
+
+.nav-footer-list-one {
+  color: white;
+}
+
+.after {
+  position: relative;
+}
+
+.after:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.after::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  background-color: white;
+  position: absolute;
+  top: 18px;
+  right: -10px;
+}
+
+.service-link {
+  text-align: center;
+  display: block;
+  width: 300px;
+  background-color: rgb(192, 31, 31);
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  margin: 35px auto 50px auto;
+}

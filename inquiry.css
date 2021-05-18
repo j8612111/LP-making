@@ -1,0 +1,192 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  scroll-margin-top: 70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  position: fixed;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.nav {
+  margin-top: 26px;
+}
+
+.nav-big {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.nav-list-one {
+  color: black;
+}
+
+.company-name {
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 24px;
+  margin-top: 22px;
+  margin-left: 30px;
+}
+
+.nav-list {
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.nav-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.main-box {
+  height: 250px;
+  padding-top: 70px;
+  position: relative;
+  background-image: url(mv.png);
+  background-position: top 43% left 50%;
+  background-size: cover;
+}
+
+.main-page-text {
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+}
+
+.service-link {
+  text-align: center;
+  display: block;
+  width: 300px;
+  background-color: rgb(5, 5, 5);
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  line-height: 35px;
+  margin: 35px auto 50px auto;
+  font-size: 13px;
+}
+
+.submit {
+  background-color: black;
+  color: white;
+  border: none;
+  margin: 20px auto 0 auto;
+  width: 300px;
+  height: 40px;
+  display: block;
+  font-weight: bold;
+}
+
+.inquiry {
+  height: 600px;
+}
+
+.form {
+  margin: 63px auto 0 auto;
+  width: 67%;
+  height: 100%;
+}
+
+.form-item {
+  width: 100%;
+}
+
+.form-item-label {
+  padding-bottom: 10px;
+  padding-top: 23px;
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+}
+
+.form-item-input {
+  width: 100%;
+  height: 25px;
+  border: 1px solid rgb(223, 223, 223);
+}
+
+.asterrisk {
+  color: red;
+}
+
+#inquiry-box {
+  width: 100%;
+  border: 1px solid rgb(223, 223, 223);
+  resize: none;
+}
+
+.footer {
+  background-color: rgb(27, 26, 26);
+  color: white;
+  font-size: 12px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.footer-box {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-footer-list {
+  display: flex;
+  margin-right: 0;
+}
+
+.nav-footer-list:not(:last-child) {
+  padding-right: 20px;
+}
+
+.nav-footer-list-one {
+  color: white;
+}
+
+.after {
+  position: relative;
+}
+
+.after:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.after::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  background-color: white;
+  position: absolute;
+  top: 18px;
+  right: -10px;
+}

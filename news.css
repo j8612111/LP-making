@@ -1,0 +1,196 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  position: fixed;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.nav {
+  margin-top: 26px;
+}
+
+.nav-big {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.nav-list-one {
+  color: black;
+}
+
+.company-name {
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 24px;
+  margin-top: 22px;
+  margin-left: 30px;
+}
+
+.nav-list {
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.nav-list:not(:last-child) {
+  margin-right: 30px;
+}
+
+.main-box {
+  height: 250px;
+  padding-top: 70px;
+  position: relative;
+  background-image: url(mv.png);
+  background-position: top 43% left 50%;
+  background-size: cover;
+}
+
+.main-page-text {
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+}
+
+.news {
+  height: 250px;
+}
+
+.news-box {
+  width: 67%;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.news-text-box {
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.news-text-company {
+  background-color: white;
+  color: rgb(27, 26, 26);
+  display: block;
+  height: 65px;
+  line-height: 65px;
+  padding-left: 20px;
+}
+
+.span-text {
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.news-link:hover,
+.news-text-box:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.inquiry {
+  height: 300px;
+  background-color: rgb(240, 238, 238);
+  margin-top: 150px;
+}
+
+.inquiry-box {
+  text-align: center;
+}
+
+.inquiry-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 80px 0 20px 0;
+}
+
+.inquiry-text {
+  padding-bottom: 10px;
+}
+
+.footer {
+  background-color: rgb(27, 26, 26);
+  color: white;
+  font-size: 12px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.footer-box {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-footer-list {
+  display: flex;
+  margin-right: 0;
+}
+
+.nav-footer-list:not(:last-child) {
+  padding-right: 20px;
+}
+
+.nav-footer-list-one {
+  color: white;
+}
+
+.after {
+  position: relative;
+}
+
+.after:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.after::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  background-color: white;
+  position: absolute;
+  top: 18px;
+  right: -10px;
+}
+
+.service-link {
+  text-align: center;
+  display: block;
+  width: 300px;
+  background-color: rgb(192, 31, 31);
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  line-height: 40px;
+  margin: 35px auto 50px auto;
+}

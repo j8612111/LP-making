@@ -1,272 +1,288 @@
+*{
+    box-sizing: border-box;
+  }
 
-html,body{
-  margin:0;
-  padding:0;
+html,
+body {
+  margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-img{
-  width:100%;
-  height:auto;
+img {
+  width: 100%;
+  height: auto;
 }
 
-li{
-  list-style:none;
+li {
+  list-style: none;
 }
 
-.header{
+.header {
   position: fixed;
-  height:70px;
+  height: 70px;
   background-color: white;
   display: flex;
   justify-content: space-between;
   left: 0;
-  right:0;
+  right: 0;
   z-index: 2;
 }
 
-.nav{
+.nav {
   margin-top: 26px;
 }
 
-.nav-big{
+.nav-big {
   display: flex;
   align-items: center;
   color: black;
 }
 
-.nav-list-one{
+.nav-list-one {
   color: black;
 }
 
-.company-name{
+.company-name {
   color: black;
   font-weight: bold;
   display: inline-block;
-}
-
-.company-name{
   font-size: 24px;
   margin-top: 22px;
   margin-left: 30px;
 }
 
-.nav-list{
+.nav-list {
   margin-right: 30px;
   font-weight: bold;
 }
 
-.nav-list:not(:last-child){
+.nav-list:not(:last-child) {
   margin-right: 30px;
 }
 
-.main-page-header{
+/* ヘッダー */
+
+.main-page-header {
   position: relative;
 }
 
-.main-page-text{
+.main-page-img{
+  background-image: url(mv.png);
+  background-size: cover;
+  background-position: 0 25%;
+}
+
+.main-page-text {
   position: absolute;
   top: 53%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   font-size: 50px;
   width: 850px;
   font-weight: bold;
 }
 
-.en-text{
+.en-text {
   position: absolute;
   top: 60%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   font-weight: bold;
   font-size: 18px;
   margin-top: 10px;
 }
 
-.nav-list-one:hover,.company-name:hover{
+.nav-list-one:hover,
+.company-name:hover {
   opacity: 0.7;
   transition: 0.3s;
   cursor: pointer;
 }
 
-.main-page-text,.en-text{
+.main-page-text,
+.en-text {
   color: white;
 }
 
-.main-page-img{
+.main-page-img {
   height: 650px;
   width: 100%;
 }
 
-.thought{
+.thought {
   background-color: rgb(27, 26, 26);
   height: 300px;
 }
 
-.company-thought,.thought-text{
+.company-thought,
+.thought-text {
   color: white;
-  width:1080px;
+  width: 1080px;
   margin: 0 auto;
 }
 
-.company-thought{
+.company-thought {
   font-size: 30px;
   font-weight: bold;
-  padding:80px 0 30px 0;
+  padding: 80px 0 30px 0;
 }
 
-.thought-text{
+.thought-text {
   line-height: 25px;
   font-size: 16px;
 }
 
-.service-box{
+.service-box {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: 1fr 1fr;
-  grid-gap:25px;
+  grid-gap: 25px;
   width: 75%;
   margin: 0 auto;
 }
 
-.service-title{
+.service-title {
   font-size: 30px;
   text-align: center;
   margin-top: 80px;
   margin-bottom: 20px;
 }
 
-.service-text-title{
+.service-text-title {
   font-weight: bold;
-  font-size: 20px;
-  padding:10px 0;
+  font-size: 18px;
+  padding: 10px 0;
 }
 
-.service-text{
+.service-text {
   line-height: 1.5;
   /* pxで指定できないのなんで */
 }
 
-.service-link{
+.service-link {
   text-align: center;
   display: block;
   width: 300px;
   background-color: rgb(192, 31, 31);
   color: white;
   font-weight: bold;
-  height:40px;
+  height: 40px;
   line-height: 40px;
   margin: 35px auto 50px auto;
 }
 
-.service-link:hover{
+.service-link:hover {
   opacity: 0.7;
   transition: 0.3s;
 }
 
-.news{
+.news {
   height: 400px;
   background-color: rgb(27, 26, 26);
 }
 
-.news-box{
+.news-box {
   width: 75%;
   margin: 0 auto;
   padding-top: 70px;
 }
 
-.news-title{
-  color:white;
+.news-title {
+  color: white;
   font-size: 30px;
   font-weight: bold;
 }
 
-.news-link{
+.news-link {
   text-align: center;
   display: block;
   width: 180px;
   background-color: rgb(192, 31, 31);
   color: white;
   font-weight: bold;
-  height:28px;
+  height: 28px;
   line-height: 28px;
 }
 
-.news-text-company{
+.news-text-company {
   background-color: white;
   color: rgb(27, 26, 26);
   display: block;
-  height:60px;
+  height: 60px;
   line-height: 60px;
   margin-bottom: 10px;
   padding-left: 20px;
 }
 
-.span-text{
+.span-text {
   font-weight: bold;
 }
 
-.news-box-title{
+.news-box-title {
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
 }
 
-.news-link:hover,.news-text-box:hover{
+.news-link:hover,
+.news-text-box:hover {
   opacity: 0.7;
   transition: 0.3s;
 }
 
-.blog-title{
+/* ニュース */
+
+.blog-title {
   font-size: 30px;
   text-align: center;
   margin: 80px 0 30px 0;
-
 }
 
-.blog-box-all{
+.blog-box-all {
   display: flex;
-  width:75%;
+  width: 75%;
   justify-content: space-around;
   margin: 0 auto;
 }
 
-.blog-box{
+.blog-box {
   margin-right: 15px;
 }
 
-.blog-box-last{
+.blog-box-last {
   margin-right: 0;
 }
 
-.blog-date{
+.blog-date {
   margin: 10px 0;
 }
 
-.blog-text{
+.blog-text {
   font-weight: bold;
   font-size: 18px;
 }
 
-.blog-text:hover,.blog-img:hover{
+.blog-text:hover,
+.blog-img:hover {
   opacity: 0.7;
   transition: 0.3s;
   cursor: pointer;
 }
 
-.info{
-  width:100%;
+.info {
+  width: 100%;
   display: flex;
   height: 300px;
 }
 
-.company-info,.recruit-info{
+.company-info,
+.recruit-info {
   display: block;
   color: white;
   font-size: 25px;
@@ -277,85 +293,84 @@ li{
   line-height: 230px;
 }
 
-.company-info:hover,.recruit-info:hover{
+.company-info:hover,
+.recruit-info:hover {
   opacity: 0.7;
   transition: 0.3s;
   cursor: pointer;
 }
 
-.company-info{
+.company-info {
   background-color: rgb(228, 17, 17);
 }
 
-.recruit-info{
+.recruit-info {
   background-color: rgb(27, 26, 26);
 }
 
-.inquiry{
+.inquiry {
   height: 300px;
   background-color: rgb(240, 238, 238);
 }
 
-.inquiry-box{
+.inquiry-box {
   text-align: center;
 }
 
-.inquiry-title{
+.inquiry-title {
   font-size: 30px;
   font-weight: bold;
   padding: 80px 0 20px 0;
 }
 
-.inquiry-text{
+.inquiry-text {
   padding-bottom: 10px;
 }
 
-.footer{
+.footer {
   background-color: rgb(27, 26, 26);
-  color:white;
+  color: white;
   font-size: 12px;
   height: 50px;
   line-height: 50px;
 }
 
-.footer-box{
+.footer-box {
   width: 75%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
-.nav-footer-list{
+.nav-footer-list {
   display: flex;
   margin-right: 0;
 }
 
-.nav-footer-list:not(:last-child){
+.nav-footer-list:not(:last-child) {
   padding-right: 20px;
 }
 
-.nav-footer-list-one{
+.nav-footer-list-one {
   color: white;
 }
 
-.after{
+.after {
   position: relative;
 }
 
-.after:hover{
+.after:hover {
   opacity: 0.7;
   transition: 0.3s;
 }
 
-.after::after{
+.after::after {
   content: "";
   display: inline-block;
   width: 1px;
-  height:15px;
+  height: 15px;
   background-color: white;
   position: absolute;
   top: 18px;
-  right:-10px;
+  right: -10px;
 }
-
-
