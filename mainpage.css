@@ -31,6 +31,10 @@ li {
   z-index: 2;
 }
 
+.menu,.nav-js{
+  display: none;
+}
+
 .nav {
   margin-top: 26px;
 }
@@ -65,25 +69,26 @@ li {
 
 /* ヘッダー */
 
-.main-page-header {
+.top-page-header {
   position: relative;
 }
 
-.main-page-img{
+.top-page-header{
   background-image: url(mv.png);
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
   background-size: cover;
-  background-position: 0 25%;
   width:100%;
 }
 
-.main-page-text {
+.top-page-text {
   position: absolute;
   top:53%;
-  left: 71%;
+  left: 50%;
   transform: translate(-50%,-50%);
   font-size: 50px;
   font-weight: bold;
-  width: 100%;
+  width:850px;
 }
 
 .en-text {
@@ -103,15 +108,17 @@ li {
   cursor: pointer;
 }
 
-.main-page-text,
+.top-page-text,
 .en-text {
   color: white;
 }
 
-.main-page-img {
+.top-page-img {
   height: 650px;
   width: 100%;
 }
+
+/* 写真と文字の箇所 */
 
 .thought {
   background-color: rgb(27, 26, 26);
@@ -173,6 +180,7 @@ li {
   height: 40px;
   line-height: 40px;
   margin: 35px auto 50px auto;
+
 }
 
 .service-link:hover {
@@ -200,12 +208,14 @@ li {
 .news-link {
   text-align: center;
   display: block;
-  width: 180px;
+  width: 160px;
   background-color: rgb(192, 31, 31);
   color: white;
   font-weight: bold;
   height: 28px;
   line-height: 28px;
+  padding: 5px 0;
+  font-size: 14px;
 }
 
 .news-text-company {
@@ -307,7 +317,7 @@ li {
 }
 
 .inquiry {
-  height: 300px;
+  height: 330px;
   background-color: rgb(240, 238, 238);
 }
 
@@ -318,7 +328,7 @@ li {
 .inquiry-title {
   font-size: 30px;
   font-weight: bold;
-  padding: 80px 0 20px 0;
+  padding: 90px 0 25px 0;
 }
 
 .inquiry-text {

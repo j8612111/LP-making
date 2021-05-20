@@ -1,18 +1,245 @@
-@media screen and (max-width:768px){
-  *{
+@media screen and (max-width: 768px) {
+  * {
     box-sizing: border-box;
   }
 
- .nav{
-   display: none;
- }
-
-  body{
-    width:75%;
+  .nav {
+    display: none;
   }
 
-  .main-page-text {
-  width: 
-}
+  .top-page-text {
+    width: 650px;
+    text-align: center;
+    line-height: 1.5;
+  }
 
+  .top-page-img {
+  }
+
+  .en-text {
+    width: 500px;
+    margin-top: 45px;
+    left: 52%;
+  }
+
+  .thought {
+    height: 350px;
+  }
+
+  .company-thought,
+  .thought-text {
+    width: 83%;
+  }
+
+  .service-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+  }
+
+  .news {
+    margin-top: 90px;
+  }
+
+  .news-box {
+    width: 85%;
+    padding-top: 120px;
+  }
+
+  .news-link {
+    line-height: 32px;
+    padding: 0;
+    height: 32px;
+    /* なんで文字にずれが出る？ */
+  }
+
+  .news-text-company {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+
+  .blog-box-all {
+    flex-wrap: wrap;
+    width: 85%;
+  }
+
+  .blog-img {
+    padding-top: 3px;
+  }
+
+  .blog-title {
+    margin-bottom: 25px;
+  }
+
+  .blog-box {
+    margin-right: 0;
+  }
+
+  .info {
+    margin-top: 70px;
+  }
+
+  .footer {
+    height: 250px;
+    line-height: 12px;
+  }
+
+  .footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+  }
+
+  .nav-footer-list {
+    display: block;
+    padding-right: 21px;
+    padding-top: 18px;
+    text-align: center;
+  }
+
+  .after::after {
+    display: none;
+  }
+
+  .footer-left {
+    margin-top: 20px;
+  }
+
+  /* メインページ */
+
+  .main-box {
+    height: 320px;
+    background-position: top 50% left 50%;
+  }
+
+  .topic {
+    height: 2000px;
+    margin-bottom: 150px;
+  }
+
+  .topic-box {
+    width: 85%;
+  }
+
+  .topic-box:last-child {
+    margin-bottom: 0;
+  }
+
+  .topic-box-one {
+    display: block;
+  }
+
+  .topic-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .topic-box-text-one {
+    line-height: 25px;
+  }
+
+  /* 事業内容 */
+
+  .news-other {
+    margin-top: 80px;
+    height: 100%;
+  }
+
+  .news-box-other {
+    padding-top: 0;
+    width: 90%;
+  }
+
+  .inquiry-news {
+    margin-top: 70px;
+  }
+
+  /* ニュース */
+
+  .table {
+    width: 90%;
+  }
+
+  /* 会社概要 */
+
+  .form {
+    width: 90%;
+  }
+
+  .nav-list-js {
+    color: blue;
+  }
+
+  .nav-js {
+    position: absolute;
+    width: 100%;
+    left: -100%;
+    height: 100vh;
+    background-color: #eee;
+    transition: 0.7s;
+    text-align: center;
+  }
+
+  .nav-js ul {
+    padding-top: 80px;
+  }
+
+  .nav-js ul li {
+    margin-top: 50px;
+  }
+
+  .menu {
+    display: inline-block;
+    width: 36px;
+    height: 32px;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+    top: 20px;
+  }
+
+  .menu_line-top,
+  .menu_line-middle,
+  .menu_line-bottom {
+    display: inline-block;
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    position: absolute;
+    transition: 0.5s;
+  }
+
+  .menu_line-top {
+    top: 0;
+  }
+
+  .menu_line-middle {
+    top: 14px;
+  }
+
+  .menu_line-bottom {
+    bottom: 0;
+  }
+
+  .menu.open span:nth-of-type(1) {
+    top: 14px;
+    transform: rotate(45deg);
+  }
+
+  .menu.open span:nth-of-type(2) {
+    opacity: 0;
+  }
+
+  .menu.open span:nth-of-type(3) {
+    top: 14px;
+    transform: rotate(-45deg);
+  }
+
+  .in {
+    transform: translateX(100%);
+  }
+
+  /* ハンバーガーメニュー、ドロワーメニュー */
 }
