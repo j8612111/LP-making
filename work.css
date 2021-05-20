@@ -30,6 +30,14 @@ li {
   z-index: 2;
 }
 
+.menu{
+  display: none;
+}
+
+.nav-js{
+  display: none;
+}
+
 .nav {
   margin-top: 26px;
 }
@@ -65,7 +73,7 @@ li {
 /* ヘッダー */
 
 .main-box{
-  height: 320px;
+  height: 35vh;
   padding-top: 70px;
   position: relative;
   background-image: url(mv.png);
@@ -85,16 +93,14 @@ li {
 /* 事業内容 */
 
 .topic{
-  height: 800px;
-  margin-top: 70px;
-  margin-bottom: 120px;
+  padding: 80px 0;
 }
 
 .topic-box{
   width: 75%;
   margin: 0 auto;
   border-top: 1px solid black;
-  padding:20px 0;
+  padding:20px 0 26px 0;
 }
 
 .topic-img{
@@ -110,7 +116,7 @@ li {
 .topic-box-text{
   font-size: 24px;
   font-weight: bold;
-  margin: 5px 0 10px 0;
+  margin: 7px 0 10px 0;
 }
 
 .topic-box:last-child{

@@ -30,6 +30,14 @@ li {
   z-index: 2;
 }
 
+.menu{
+  display: none;
+}
+
+.nav-js{
+  display: none;
+}
+
 .nav {
   margin-top: 26px;
 }
@@ -104,14 +112,10 @@ li {
   font-weight: bold;
 }
 
-.inquiry {
-  height: 600px;
-}
-
 .form {
-  margin: 63px auto 0 auto;
   width: 67%;
-  height: 100%;
+  margin: 0 auto;
+  padding: 40px 0 80px 0;
 }
 
 .form-item {

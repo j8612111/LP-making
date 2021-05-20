@@ -30,6 +30,14 @@ li {
   z-index: 2;
 }
 
+.menu{
+  display: none;
+}
+
+.nav-js{
+  display: none;
+}
+
 .nav {
   margin-top: 26px;
 }

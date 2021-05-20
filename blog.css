@@ -8,6 +8,7 @@ body {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 img {
@@ -28,6 +29,14 @@ li {
   left: 0;
   right: 0;
   z-index: 2;
+}
+
+.menu{
+  display: none;
+}
+
+.nav-js{
+  display: none;
 }
 
 .nav {

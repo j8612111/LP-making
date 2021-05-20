@@ -31,7 +31,11 @@ li {
   z-index: 2;
 }
 
-.menu,.nav-js{
+.menu{
+  display: none;
+}
+
+.nav-js{
   display: none;
 }
 
@@ -78,7 +82,6 @@ li {
   background-repeat: no-repeat;
   background-position: 30% 50%;
   background-size: cover;
-  width:100%;
 }
 
 .top-page-text {
