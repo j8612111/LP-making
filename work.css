@@ -30,11 +30,11 @@ li {
   z-index: 2;
 }
 
-.menu{
+.menu {
   display: none;
 }
 
-.nav-js{
+.nav-js {
   display: none;
 }
 
@@ -72,7 +72,7 @@ li {
 
 /* ヘッダー */
 
-.main-box{
+.main-box {
   height: 35vh;
   padding-top: 70px;
   position: relative;
@@ -81,45 +81,45 @@ li {
   background-size: cover;
 }
 
-.main-page-text{
+.main-page-text {
   position: absolute;
   top: 61%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: white;
   font-size: 30px;
 }
 
 /* 事業内容 */
 
-.topic{
+.topic {
   padding: 80px 0;
 }
 
-.topic-box{
+.topic-box {
   width: 75%;
   margin: 0 auto;
   border-top: 1px solid black;
-  padding:20px 0 26px 0;
+  padding: 20px 0 26px 0;
 }
 
-.topic-img{
+.topic-img {
   width: 27%;
   height: auto;
   margin-right: 35px;
 }
 
-.topic-box-one{
+.topic-box-one {
   display: flex;
 }
 
-.topic-box-text{
+.topic-box-text {
   font-size: 24px;
   font-weight: bold;
   margin: 7px 0 10px 0;
 }
 
-.topic-box:last-child{
+.topic-box:last-child {
   border-bottom: 1px solid black;
 }
 
@@ -197,7 +197,7 @@ li {
   background-color: rgb(192, 31, 31);
   color: white;
   font-weight: bold;
-  height: 40px;
-  line-height: 40px;
+  height: 45px;
+  line-height: 45px;
   margin: 35px auto 50px auto;
 }

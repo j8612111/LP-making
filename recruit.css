@@ -30,11 +30,11 @@ li {
   z-index: 2;
 }
 
-.menu{
+.menu {
   display: none;
 }
 
-.nav-js{
+.nav-js {
   display: none;
 }
 
@@ -88,16 +88,16 @@ li {
   font-size: 30px;
 }
 
-.recruit-box{
-  width:67%;
-  margin:85px auto 0 auto;
+.recruit-box {
+  width: 67%;
+  margin: 85px auto 0 auto;
 }
 
-.recruit-table{
-  width:100%;
+.recruit-table {
+  width: 100%;
 }
 
-.recruit-title{
+.recruit-title {
   font-size: 26px;
   font-weight: bold;
   border-bottom: 1px solid black;
@@ -105,21 +105,22 @@ li {
   padding-bottom: 5px;
 }
 
-.recruit-sentence{
+.recruit-sentence {
   padding: 24px 0;
 }
 
-table th,table td{
+table th,
+table td {
   border: 1px solid black;
   padding: 14px 0;
 }
 
-table th{
+table th {
   background-color: #f1f1f1;
 }
 
-table td{
-  padding-left:8px;
+table td {
+  padding-left: 8px;
 }
 
 .inquiry {
@@ -197,7 +198,7 @@ table td{
   background-color: rgb(192, 31, 31);
   color: white;
   font-weight: bold;
-  height: 40px;
-  line-height: 40px;
+  height: 45px;
+  line-height: 45px;
   margin: 35px auto 50px auto;
 }

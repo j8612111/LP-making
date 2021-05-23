@@ -30,11 +30,11 @@ li {
   z-index: 2;
 }
 
-.menu{
+.menu {
   display: none;
 }
 
-.nav-js{
+.nav-js {
   display: none;
 }
 
@@ -90,7 +90,7 @@ li {
 
 .table {
   margin: 0 auto;
-  width:67%;
+  width: 67%;
   margin-top: 75px;
 }
 
@@ -181,7 +181,7 @@ table th {
   background-color: rgb(192, 31, 31);
   color: white;
   font-weight: bold;
-  height: 40px;
-  line-height: 40px;
+  height: 45px;
+  line-height: 45px;
   margin: 35px auto 50px auto;
 }

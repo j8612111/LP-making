@@ -8,24 +8,22 @@
   }
 
   .top-page-text {
-    width: 650px;
+    width: 85%;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.6;
   }
 
   .en-text {
-    width: 500px;
-    margin-top: 45px;
-    left: 52%;
+    width: 70%;
+    margin: 45px auto 0 auto;
+  }
+
+  .thought-box {
+    width: 80%;
   }
 
   .thought {
     height: 350px;
-  }
-
-  .company-thought,
-  .thought-text {
-    width: 83%;
   }
 
   .service-box {
@@ -40,7 +38,7 @@
 
   .news-box {
     width: 85%;
-    padding-top: 120px;
+    padding-top: 100px;
   }
 
   .news-link {
@@ -155,18 +153,15 @@
 
   /* ニュース */
 
-  .recruit-box{
-    width:90%;
+  .recruit-box {
+    width: 90%;
   }
-
 
   /* 会社概要 */
 
   .form {
     width: 90%;
   }
-
-
 
   .nav-list-js {
     color: blue;
@@ -244,4 +239,87 @@
   }
 
   /* ハンバーガーメニュー、ドロワーメニュー */
+
+  @media screen and (max-width: 400px) {
+    .en-text {
+      text-align: center;
+      margin: 95px auto 0 auto;
+      width: 80%;
+      line-height: 1.6;
+    }
+
+    .thought {
+      height: 480px;
+    }
+
+    .thought-box {
+      margin: 0 auto;
+    }
+
+    .inquiry-text {
+      line-height: 1.6;
+      font-size: 16px;
+      width: 85%;
+      margin: 0 auto;
+    }
+
+    .inquiry {
+      height: 360px;
+    }
+
+    .footer {
+      height: 260px;
+    }
+
+    .footer-box {
+      display: block;
+      text-align: center;
+      width: 100%;
+    }
+
+    .footer-left {
+      padding-top: 20px;
+      margin-top: 0;
+    }
+
+    .nav-footer-list {
+      padding-top: 17px;
+      padding-right: 0;
+    }
+
+    .nav-footer-list:not(:last-child) {
+      padding-right: 0;
+    }
+
+    .nav-footer-list:first-child {
+      padding-top: 10px;
+    }
+
+    .topic {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      height: 1650px;
+    }
+
+    .blog-date {
+      font-size: 14px;
+    }
+
+    .blog-box-all:first-child {
+      margin-bottom: 0;
+      margin-top: 55px;
+    }
+
+    .blog-box {
+      margin-top: 20px;
+    }
+
+    .table {
+      width: 90%;
+    }
+
+    .inquiry-responsive {
+      height: 670px;
+    }
+  }
 }
