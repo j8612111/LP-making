@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="inquiry.css">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="../css/work.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/responsive.css">
   <title>株式会社TECH</title>
 </head>
 <body>
@@ -42,32 +42,56 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main class="main">
     <div class="main-box">
       <div class="main-page-header">
-        <h2 class="main-page-text">お問い合わせ</h2>
+        <h2 class="main-page-text">事業内容</h2>
       </div>
     </div>
-    <div class="inquiry inquiry-responsive">
-      <form class="form" name="contact" method="POST">
-        <div class="form-item">
-          <label class="form-item-label" for="form-item-name">会社名</label>
-          <input type="text" name="company" class="form-item-input">
+    <div class="topic">
+      <div class="topic-box">
+        <div class="topic-box-one">
+          <img class="topic-img" src="../img/service1.png" alt="">
+          <div class="topic-box-text-all">
+            <p class="topic-box-text">IT人材育成事業</p>
+            <p class="topic-box-text-one">これまでに培った教育手法を生かして、短期間で即戦力のIT人材を育成します。</p>
+          </div>
         </div>
-        <div class="form-item">
-          <label class="form-item-label" for="form-item-name">お名前<span class="asterrisk"> *</span></label>
-          <input type="text" name="company" class="form-item-input" required>
+      </div>
+      <div class="topic-box">
+        <div class="topic-box-one">
+          <img class="topic-img" src="../img/service2.png" alt="">
+          <div class="topic-box-text-all">
+            <p class="topic-box-text">コーチング事業</p>
+            <p class="topic-box-text-one">目標達成を最短で実現するために、プロのコーチによるマンツーマンのサポートを実施します。</p>
+          </div>
         </div>
-        <div class="form-item">
-          <label class="form-item-label" for="form-item-name">メールアドレス<span class="asterrisk"> *</span></label>
-          <input type="email" name="name" class="form-item-input" required>
+      </div>
+      <div class="topic-box">
+        <div class="topic-box-one">
+          <img class="topic-img" src="../img/service3.png" alt="">
+          <div class="topic-box-text-all">
+            <p class="topic-box-text">ITコンサル事業</p>
+            <p class="topic-box-text-one">経営戦略にIT戦略を策定し、システム開発の提案やシステムの最適化を通じて、企業の経営をサポートします。</p>
+          </div>
         </div>
-        <div class="text-item">
-          <label class="form-item-label" for="form-item-name">お問い合わせ内容<span class="asterrisk"> *</span></label>
-          <textarea name="inquiry-box" id="inquiry-box" cols="80" rows="10" required></textarea>
+      </div>
+      <div class="topic-box">
+        <div class="topic-box-one">
+          <img class="topic-img" src="../img/service4.png" alt="">
+          <div class="topic-box-text-all">
+            <p class="topic-box-text">デジタルトランスフォーメーション事業</p>
+            <p class="topic-box-text-one">人々の生活をよりよいものに変革するために様々なデジタル技術を活用し、革新的なソリューションやサービスを生み出します。</p>
+          </div>
         </div>
-        <input type="submit" value="お申し込み" class="submit">
-      </form>
+      </div>
+    </div>
+    <div class="inquiry">
+      <div class="inquiry-box">
+        <p class="inquiry-title">お問い合わせ</p>
+        <p class="inquiry-text">お仕事のご依頼や採用に関してはお問い合わせにて承っております。</p>
+      </div>
+      <a href="inquiry.html" class="service-link">お問い合わせ</a>
     </div>
   </main>
   <footer class="footer">

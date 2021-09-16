@@ -74,7 +74,7 @@ li {
   height: 250px;
   padding-top: 70px;
   position: relative;
-  background-image: url(mv.png);
+  background-image: url(../img/mv.png);
   background-position: top 43% left 50%;
   background-size: cover;
 }

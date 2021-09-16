@@ -8,6 +8,7 @@ body {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 img {
@@ -74,7 +75,7 @@ li {
   height: 250px;
   padding-top: 70px;
   position: relative;
-  background-image: url(mv.png);
+  background-image: url(../img/mv.png);
   background-position: top 43% left 50%;
   background-size: cover;
 }
@@ -88,45 +89,45 @@ li {
   font-size: 30px;
 }
 
-.news-other {
-  height: 250px;
-}
-
-.news-box-other {
-  width: 67%;
+.blog-box-all {
+  display: flex;
+  width: 75%;
+  justify-content: space-around;
   margin: 0 auto;
-  padding-top: 80px;
 }
 
-.news-text-box-other {
-  border: 1px solid black;
-  margin-bottom: 10px;
+.blog-box-all:first-child {
+  margin: 100px auto 25px auto;
 }
 
-.news-text-company {
-  background-color: white;
-  color: rgb(27, 26, 26);
-  display: block;
-  height: 65px;
-  line-height: 65px;
-  padding-left: 12px;
+.blog-box {
+  margin-right: 20px;
 }
 
-.span-text {
+.blog-box-last {
+  margin-right: 0;
+}
+
+.blog-date {
+  margin: 10px 0;
+}
+
+.blog-text {
   font-weight: bold;
-  margin-left: 4px;
+  font-size: 18px;
 }
 
-.news-link:hover,
-.news-text-box-other:hover {
+.blog-text:hover,
+.blog-img:hover {
   opacity: 0.7;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .inquiry {
   height: 300px;
   background-color: rgb(240, 238, 238);
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .inquiry-box {

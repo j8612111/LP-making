@@ -70,13 +70,11 @@ li {
   margin-right: 30px;
 }
 
-/* ヘッダー */
-
 .main-box {
-  height: 35vh;
+  height: 250px;
   padding-top: 70px;
   position: relative;
-  background-image: url(mv.png);
+  background-image: url(../img/mv.png);
   background-position: top 43% left 50%;
   background-size: cover;
 }
@@ -90,42 +88,45 @@ li {
   font-size: 30px;
 }
 
-/* 事業内容 */
-
-.topic {
-  padding: 80px 0;
+.news-other {
+  height: 250px;
 }
 
-.topic-box {
-  width: 75%;
+.news-box-other {
+  width: 67%;
   margin: 0 auto;
-  border-top: 1px solid black;
-  padding: 20px 0 26px 0;
+  padding-top: 80px;
 }
 
-.topic-img {
-  width: 27%;
-  height: auto;
-  margin-right: 35px;
+.news-text-box-other {
+  border: 1px solid black;
+  margin-bottom: 10px;
 }
 
-.topic-box-one {
-  display: flex;
+.news-text-company {
+  background-color: white;
+  color: rgb(27, 26, 26);
+  display: block;
+  height: 65px;
+  line-height: 65px;
+  padding-left: 12px;
 }
 
-.topic-box-text {
-  font-size: 24px;
+.span-text {
   font-weight: bold;
-  margin: 7px 0 10px 0;
+  margin-left: 4px;
 }
 
-.topic-box:last-child {
-  border-bottom: 1px solid black;
+.news-link:hover,
+.news-text-box-other:hover {
+  opacity: 0.7;
+  transition: 0.3s;
 }
 
 .inquiry {
   height: 300px;
   background-color: rgb(240, 238, 238);
+  margin-top: 150px;
 }
 
 .inquiry-box {

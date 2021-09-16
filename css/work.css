@@ -70,11 +70,13 @@ li {
   margin-right: 30px;
 }
 
+/* ヘッダー */
+
 .main-box {
-  height: 250px;
+  height: 35vh;
   padding-top: 70px;
   position: relative;
-  background-image: url(mv.png);
+  background-image: url(../img/mv.png);
   background-position: top 43% left 50%;
   background-size: cover;
 }
@@ -88,45 +90,42 @@ li {
   font-size: 30px;
 }
 
-.recruit-box {
-  width: 67%;
-  margin: 85px auto 0 auto;
+/* 事業内容 */
+
+.topic {
+  padding: 80px 0;
 }
 
-.recruit-table {
-  width: 100%;
+.topic-box {
+  width: 75%;
+  margin: 0 auto;
+  border-top: 1px solid black;
+  padding: 20px 0 26px 0;
 }
 
-.recruit-title {
-  font-size: 26px;
+.topic-img {
+  width: 27%;
+  height: auto;
+  margin-right: 35px;
+}
+
+.topic-box-one {
+  display: flex;
+}
+
+.topic-box-text {
+  font-size: 24px;
   font-weight: bold;
+  margin: 7px 0 10px 0;
+}
+
+.topic-box:last-child {
   border-bottom: 1px solid black;
-  height: 30px;
-  padding-bottom: 5px;
-}
-
-.recruit-sentence {
-  padding: 24px 0;
-}
-
-table th,
-table td {
-  border: 1px solid black;
-  padding: 14px 0;
-}
-
-table th {
-  background-color: #f1f1f1;
-}
-
-table td {
-  padding-left: 8px;
 }
 
 .inquiry {
   height: 300px;
   background-color: rgb(240, 238, 238);
-  margin-top: 85px;
 }
 
 .inquiry-box {
